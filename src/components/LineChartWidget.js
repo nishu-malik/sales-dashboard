@@ -137,7 +137,7 @@ function LineChartWidget() {
             type="text"
             name="text"
             value={modalValue}
-            placeholder="enter link of json api"
+            placeholder="https://api.jsonbin.io/b/6161d2e3aa02be1d44570e88/1"
             onChange={handleModal}
             sx={{
               width: ["90%", "85%", "80%", "70%"],
